@@ -1,6 +1,6 @@
 # BiKD-STMGL
 This repository contains the official implementation of the paper "Efficient Lane-Level Traffic Flow Prediction via Bidirectional Knowledge Distillation with Spatio-Temporal Memory Graph Learning".
-# Code Structure
+## Code Structure
 The implementation framework of BiKD-STMGL consists of four core files:
 
 **embedding.py**
