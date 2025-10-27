@@ -23,7 +23,16 @@ The implementation framework of BiKD-STMGL consists of four core files:
 - `model_BiKD_STMGL.py:` The main script that integrates the student and teacher models to perform BiKD training. It outputs evaluation metrics including MAE, RMSE, and MAPE for each prediction horizon.
 
 ## Usage
-
+### Requirements
+- numpy
+- pandas
+- torch
+- math
+- os
+- time
+- openai
+- json
+  
 ## Running Experiments
 You can run the experiments by executing `model_BiKD_STMGL.py`.
 
