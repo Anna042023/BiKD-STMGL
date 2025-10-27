@@ -51,9 +51,9 @@ You can run the experiments by executing `model_BiKD_STMGL.py`.
 ## Baseline Models
 The comparative experiments include two categories of baseline methods:
 
-- Lane-Level Models — Models designed for lane-level traffic flow prediction. These methods are stored in the Lane_Level_models/ folder.
+- Lane-Level Models — Models designed for lane-level traffic flow prediction. These methods are stored in the `Lane_Level_models`.
 
-- Graph-Based Models — Spatio-temporal graph learning approaches that capture spatial dependencies between road segments. These methods are stored in the ST_Graph_models/ folder.
+- Graph-Based Models — Spatio-temporal graph learning approaches that capture spatial dependencies between road segments. These methods are stored in the `ST_Graph_models`.
 
 ## Experimental Results
 The comparison between BiKD-STMGL and other baseline comparison methods is based on the following metrics:
