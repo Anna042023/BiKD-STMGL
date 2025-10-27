@@ -6,13 +6,13 @@ This repository contains the official implementation of the paper "Efficient Lan
 ## Code Structure
 The implementation framework of BiKD-STMGL consists of four core files:
 
-- embedding.py: Implements three embedding modules: temporal position embedding, temporal periodic embedding, and spatial Chebyshev graph embedding.
+- `embedding.py:` Implements three embedding modules: temporal position embedding, temporal periodic embedding, and spatial Chebyshev graph embedding.
 
-- STMGL.py: Defines the main architecture of the STMGL network.
+- `STMGL.py:` Defines the main architecture of the STMGL network.
 
-- teacher_model.py: Implements the teacher model.
+- `teacher_model.py:` Implements the teacher model.
 
-- model_BiKD_STMGL.py: The main script that integrates the student and teacher models to perform BiKD training. It outputs evaluation metrics including MAE, RMSE, and MAPE for each prediction horizon.
+- `model_BiKD_STMGL.py:` The main script that integrates the student and teacher models to perform BiKD training. It outputs evaluation metrics including MAE, RMSE, and MAPE for each prediction horizon.
 
 ## Running Experiments
 You can run the experiments by executing `model_BiKD_STMGL.py`.
