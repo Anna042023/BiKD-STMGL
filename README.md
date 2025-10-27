@@ -3,7 +3,7 @@ This repository contains the official implementation of the paper "Efficient Lan
 ## Method
 The Bidirectional Knowledge Distillation with Spatio-Temporal Memory Graph Learning (BiKD-STMGL) framework addresses core challenges in both spatio-temporal and graph data management for lane-level traffic flow prediction. This integrated solution balances computational efficiency with model adaptability through three key components that advance spatio-temporal graph processing capabilities.
 
-The framework initiates with an Enhanced Spatio-Temporal Embedding Layer, where multi-granularity temporal networks extract transient and trend patterns while Chebyshev-based graph embeddings encode lane topology through graph-based structural encoding. This establishes the foundational representation for subsequent spatio-temporal analysis.
+- The framework initiates with an Enhanced Spatio-Temporal Embedding Layer, where multi-granularity temporal networks extract transient and trend patterns while Chebyshev-based graph embeddings encode lane topology through graph-based structural encoding. This establishes the foundational representation for subsequent spatio-temporal analysis.
 
 - The core Spatio-Temporal Memory Graph Learning (STMGL) module then employs coordinated graph learning techniques: multi-granularity networks for temporal pattern extraction, memory-augmented spatial learning for dynamic dependency modeling in graph structures, and soft-DTW-enhanced attention for behavior-aware correlation discovery in spatial networks.
 
@@ -23,7 +23,7 @@ The implementation framework of BiKD-STMGL consists of four core files:
 - `model_BiKD_STMGL.py:` The main script that integrates the student and teacher models to perform BiKD training. It outputs evaluation metrics including MAE, RMSE, and MAPE for each prediction horizon.
 
 ## Usage
-<pre> ### Requirements ``` numpy pandas math torch scikit-learn time ``` </pre>
+
 ## Running Experiments
 You can run the experiments by executing `model_BiKD_STMGL.py`.
 
