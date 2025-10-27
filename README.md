@@ -3,7 +3,7 @@ This repository contains the official implementation of the paper "Efficient Lan
 # Code Structure
 The implementation framework of BiKD-STMGL consists of four core files:
 
--**embedding.py**
+**embedding.py**
   
 Implements three embedding modules: temporal position embedding, temporal periodic embedding, and spatial Chebyshev graph embedding.
 
