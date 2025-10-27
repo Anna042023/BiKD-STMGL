@@ -11,6 +11,18 @@ The Bidirectional Knowledge Distillation with Spatio-Temporal Memory Graph Learn
 
 Empirical results confirm that BiKD-STMGL effectively handles complex spatio-temporal dependencies in graph-structured traffic data, achieving superior prediction accuracy with sustained computational efficiency. The framework successfully addresses key challenges in spatio-temporal and graph data management, providing a robust solution for lane-level prediction in complex transportation networks.
 
+## Datasets
+Three datasets are used in this work, stored in separate folders: `PeMS`, `HuaNan`, and `PeMSF`.
+Each dataset contains the following files:
+
+- `train.npz`: training set
+
+- `val.npz`: validation set
+
+- `test.npz`: testing set
+
+- `adj.csv`: describing the spatial connectivity between lane segments.
+
 ## Code Structure
 The implementation framework of BiKD-STMGL consists of four core files:
 
@@ -35,6 +47,13 @@ The implementation framework of BiKD-STMGL consists of four core files:
   
 ## Running Experiments
 You can run the experiments by executing `model_BiKD_STMGL.py`.
+
+## Baseline Models
+The comparative experiments include two categories of baseline methods:
+
+- Lane-Level Models — Models designed for lane-level traffic flow prediction. These methods are stored in the Lane_Level_models/ folder.
+
+- Graph-Based Models — Spatio-temporal graph learning approaches that capture spatial dependencies between road segments. These methods are stored in the ST_Graph_models/ folder.
 
 ## Experimental Results
 The comparison between BiKD-STMGL and other baseline comparison methods is based on the following metrics:
